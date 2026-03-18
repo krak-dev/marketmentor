@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (keep .env.example, ignore actual .env files)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+client/dist/
+client/build/
+
+# Vite
+.vite/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
+.parcel-cache/
+tmp/
+temp/
+
+# Project specific
+server/.env
+client/.env
+*.pid
+.DS_Store
+README.md.tmp

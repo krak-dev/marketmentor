@@ -1,0 +1,17 @@
+{
+  "name": "marketmentor-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "yahoo-finance2": "^2.10.0"
+  }
+}
